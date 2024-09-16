@@ -1,0 +1,9 @@
+@media screen and (max-width: 1000px) {
+  /* .skill-card {
+    width: 400px;
+  } */
+
+  .project-card {
+    width: 400px;
+  }
+}

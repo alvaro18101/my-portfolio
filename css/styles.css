@@ -70,7 +70,7 @@ a {
 
 h2 {
   margin-bottom: 20px;
-  padding: 40px 0 0 40px;
+  padding: 40px 0 0 0;
   text-align: center;
   font-size: 2em;
   color: #1b161c;
@@ -90,7 +90,7 @@ header {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3em;
   width: 100%;
   color: #dce5db;
 }

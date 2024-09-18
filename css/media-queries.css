@@ -2,6 +2,10 @@
   /* .skill-card {
     width: 400px;
   } */
+  .about-me-buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
 
   .project-card {
     width: 400px;

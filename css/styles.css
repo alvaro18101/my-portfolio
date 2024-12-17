@@ -150,7 +150,7 @@ h1 {
   padding: 20px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
 }
@@ -241,7 +241,7 @@ h1 {
 }
 
 .project-description {
-  margin: 5px 1em 0 1em;
+  margin: 5px 1em 2em 1em;
 }
 
 .project-description p {
@@ -252,6 +252,16 @@ h1 {
   list-style: none;
 }
 
+.project-card {
+  position: relative;
+}
+
+.project-links {
+  position: absolute;
+  margin-top: 30px;
+  bottom: 2px;
+  /* top: -5px; */
+}
 
 
 /* CONTACT-ME SECTION */

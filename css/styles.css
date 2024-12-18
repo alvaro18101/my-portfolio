@@ -29,7 +29,6 @@ a {
   color: #a65e22;
 }
 
-
 h1 {
   font-size: 3em;
   width: 100%;
@@ -63,6 +62,7 @@ h2 {
 /* --- ABOUT-ME SECTION --- */
 #about-me {
   width: 100%;
+  min-height: fit-content;
   height: 100vh;
   padding: 25px;
   padding-top: 10%;
@@ -116,36 +116,29 @@ h2 {
 
 
 
-.button-light a:hover {
-  opacity: 0.7;
-  transition: 0.3s;
-}
-
-
-
-
 /* --- SKILLS SECTION --- */
 .skills-container {
-  width: 20px;
-  padding: 20px;
+  width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
   box-sizing: border-box;
+  gap: 1rem;
   justify-content: center;
-  width: 90%;
-  justify-content: flex-start;
+  margin: auto;
 }
 
 .skill-card {
+  width: fit-content;
   border: 2px solid #1b161c;
   padding: 10px;
   border-radius: 20px;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  margin: 3px 8px;
-  float: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  align-self: center;
 }
 
 .skill-card:hover {

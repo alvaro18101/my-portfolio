@@ -115,7 +115,6 @@ h2 {
 }
 
 
-
 /* --- SKILLS SECTION --- */
 .skills-container {
   width: 90%;
@@ -174,7 +173,7 @@ h2 {
 
 
 
-/* PROJECTS SECTION */
+/* --- PROJECTS SECTION --- */
 .projects-container {
   padding: 20px;
   display: flex;
@@ -194,6 +193,8 @@ h2 {
   margin: 5px;
   float: left;
   border-radius: 10px;
+  /* align-items: center; */
+  align-self: center;
 }
 
 .project-header {
@@ -267,15 +268,15 @@ h2 {
 }
 
 
-/* CONTACT-ME SECTION */
+/* --- CONTACT-ME SECTION --- */
 .contacts-container {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 .contact-box {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
-  width: 500px;
+  flex-wrap: wrap;
+  max-width: 500px;
   margin: 40px auto;
   justify-content: space-between;
   align-items: center;

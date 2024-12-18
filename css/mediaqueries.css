@@ -17,10 +17,15 @@
     gap: 0.5rem;
   }
 
-  /* .project-card {
-    width: 400px;
+/* PROEJCTS */
+  .projects-container {
+    flex-direction: column;
   }
 
+  .project-card {
+    width: 95%;
+  }
+/* 
   .contact-box {
     width: 90%
   } */

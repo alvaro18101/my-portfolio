@@ -1,0 +1,25 @@
+@media screen and (max-width: 900px) {
+  .about-me-container {
+    width: 95%;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    width: fit-content;
+    margin: 2rem auto;
+  }
+  /* .about-me-buttons {
+    display: flex;
+    justify-content: flex-start;
+  } */
+
+  /* .project-card {
+    width: 400px;
+  }
+
+  .contact-box {
+    width: 90%
+  } */
+}
+
+
